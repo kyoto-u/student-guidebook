@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PandA_Tutrial</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.css') }}">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -19,8 +20,74 @@
 
 <body>
     <nav class="navbar navbar-dark bg-primary">
-        <a href="#" class="navbar-brand">PandA　ガイド</a>
+        <a href="#" class="navbar-brand">PandA</a>
     </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container-fluid">
+                <h3>PandA ガイド</h3>
+                <form>
+                    <div class="form-row align-items-center">
+                        <div class="col-11">
+                            <input type="text" id="search_txtbox" class="form-control" placeholder="検索キーワードを入力">
+                        </div>
+                        <div class="col-1">
+                            <button type="submit" class="btn btn-primary mb-2">
+                                <i class="fas fa-search">Search</i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <div class="container-fluid" style="background-color: aliceblue; min-height: 100vh;">
+                {% block GuideMainBlock %}
+                Replace this
+                {% endblock %}
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="container-fluid" style="background-color: beige; min-height: 100vh;">
+                Topics
+                <div>
+                    <a data-toggle="collapse" href="#topic1" aria-expanded="false" aria-controls="topic1">
+                        <i class="fas fa-caret-right"></i> Topic1
+                    </a>
+                    <div class="collapse" id="topic1">
+                        <div>
+                            <a href="#">リンク１</a>
+                        </div>
+                        <div>
+                            <a href="#">リンク１</a>
+                        </div>
+                        <div>
+                            <a href="#">リンク１</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a data-toggle="collapse" href="#topic2" aria-expanded="false" aria-controls="topic2">
+                        <i class="fas fa-caret-right"></i> Topic2
+                    </a>
+                    <div class="collapse" id="topic2">
+                        <div>
+                            <a href="#">リンク１</a>
+                        </div>
+                        <div>
+                            <a href="#">リンク１</a>
+                        </div>
+                        <div>
+                            <a href="#">リンク１</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

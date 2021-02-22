@@ -4,7 +4,7 @@ import logging
 
 @app.route('/', methods=["GET"])
 def root():
-    return flask.render_template("root.htm")
+    return flask.render_template("guidelist.htm")
 
 
 
