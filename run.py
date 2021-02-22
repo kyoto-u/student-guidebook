@@ -6,6 +6,10 @@ import logging
 def root():
     return flask.render_template("guidelist.htm")
 
+@app.route('/template/<htm_name>', methods=["GET"])
+def show_template(htm_name):
+    return flask.render_template(f"{htm_name}.htm")
+
 
 
 if __name__ == '__main__':
