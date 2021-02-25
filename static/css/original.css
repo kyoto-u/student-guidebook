@@ -1,0 +1,31 @@
+.screensteps-textblock.screensteps-wrapper--introduction {
+    color: #115478;
+    background-color: #e8f5f9;
+    padding-left: 1.5em;
+}
+
+.screensteps-wrapper.screensteps-textblock {
+    position: relative;
+    padding-left: 3em;
+    padding-right: 1.5em;
+}
+
+.screensteps-wrapper {
+    margin: 10px 0;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+div {
+    display: block;
+}
+
+.screensteps-description, .screensteps-steps {
+    line-height: 1.7;
+}
+
+.screensteps-wrapper.screensteps-textblock::before {
+    left: 0.75em;
+    position: absolute;
+}
