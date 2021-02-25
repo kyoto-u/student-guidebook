@@ -1,0 +1,14 @@
+
+#Main{
+    background-color: aliceblue;
+}
+
+#Sidebar{
+    background-color: lightyellow;
+    min-height: 100vh;
+}
+
+#footer{
+    background-color: silver;
+    min-height: 20vh;
+}
