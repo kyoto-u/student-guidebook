@@ -1,6 +1,7 @@
 
 #Main{
     background-color: aliceblue;
+    padding-bottom: 100px;
 }
 
 #Sidebar{
@@ -11,4 +12,12 @@
 #footer{
     background-color: silver;
     min-height: 20vh;
+}
+
+.Article_title{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.step{
+    margin-top:50px;
 }
