@@ -1,19 +1,79 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <link rel="stylesheet" href="/static//css/original.css" type="text/css">
-    </head>
-    <body>
-        <div>
-            <h1 >科目ページを上のナビゲーションバーに追加する</h1>
-            <div class="title instructions screensteps-textblock screensteps-wrapper--introduction screensteps-wrapper">
-                上のナビゲーションバーに登録されている授業が全て表示されていない場合があります。
-                全ての授業を確認したい場合は右上のメニュー(&#9312;)をクリックして確認することができます。
-                また、ナビゲーションバーに表示されていない授業の左側の&#10014;をクリックしてお気に入りに追加することで
-                ナビゲーションバーに表示する授業を追加することができます。
-                ただし、ナビゲーションバーに追加できる授業数は15個までです。
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PandA Guide</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/Style_for_lg.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="../static/css/Style_for_sm.css" media="screen and (max-width: 768px)">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script
+        src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/7bb95e7ca3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <a href="#" class="navbar-brand">PandA</a>
+    </nav>
+    <div class="container-fluid" style="max-width: 90vw;">
+        <div class="row">
+            <div class="col-md-10 col-sm-12" id="BreadCrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                </ol>
+            </div>
+            <div class="col-md-10 col-sm-12" id="Main">
+                <div>
+                    <h3>科目ページを上のナビゲーションバーに追加する</h3>
+                    <div
+                        class="title instructions screensteps-textblock screensteps-wrapper--introduction screensteps-wrapper">
+                        上のナビゲーションバーに登録されている授業が全て表示されていない場合があります。
+                        全ての授業を確認したい場合は右上のメニュー(&#9312;)をクリックして確認することができます。
+                        また、ナビゲーションバーに表示されていない授業の左側の&#10014;をクリックしてお気に入りに追加することで
+                        ナビゲーションバーに表示する授業を追加することができます。
+                        ただし、ナビゲーションバーに追加できる授業数は15個までです。
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 d-flex flex-column" id="Sidebar">
+                Sidebar
+                <a data-toggle="collapse" href="#Topic1" aria-expanded="false" aria-controls="Topic1">
+                    Topic1
+                </a>
+                <div class="collapse" id="Topic1">
+                    <div class=" d-flex flex-column">
+                        <a href="#">Link1</a>
+                        <a href="#">Link2</a>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <footer>
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <h3 class="mx-auto mt-5">京都大学 京都大学情報環境機構</h3>
+            </div>
+        </div>
+    </footer>
 
-    </body>
+</body>
+
 </html>

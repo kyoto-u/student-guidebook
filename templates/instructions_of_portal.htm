@@ -1,23 +1,89 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <link rel="stylesheet" href="/static//css/original.css" type="text/css">
-    </head>
-	<body>
-        <div>
-			<h1>PandAのログイン前の画面の説明</h1>
-			<div class="title instructions screensteps-textblock screensteps-wrapper--introduction screensteps-wrapper">
-				<p>　<a href=https://panda.ecs.kyoto-u.ac.jp/portal/>https://panda.ecs.kyoto-u.ac.jp/portal/</a>にアクセスしたとき、ログイン前は下のような画面になっていると思います。画面の各エリアについて説明します。</p>
-				<p>（スクリーンショットが入ります）</p>
-				<h2>1.ログインボタン</h2>
-					<p>　1のエリアはログインボタンです。ログインボタンをクリックすると、ログイン画面に移り、ECS-IDとパスワードの入力を求められます。</p>
-				<h2>2.ツールバー</h2>
-					<p>　PandAの元となっているサービスSakaiについてです。特に見なくても日常的にPandAを利用するうえで問題ありません。</p>
-				<h2>3.PandAの利用法解説</h2>
-					<p>　主にPandAを使い慣れていない方々へ向けて、PandAの使い方を紹介しています。</p>
-				<h2>4.PandAに関するお知らせ</h2>
-					<P>　PandAに関するお知らせが掲載されています。システム障害やメンテナンスなどのメッセージも掲載されるため、たまにチェックするようにしましょう。</P>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PandA Guide</title>
+	<!-- BootstrapのCSS読み込み -->
+	<link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../static/css/Style_for_lg.css" media="screen and (min-width: 768px)">
+	<link rel="stylesheet" href="../static/css/Style_for_sm.css" media="screen and (max-width: 768px)">
+	<!-- jQuery読み込み -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script
+		src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+	<!-- BootstrapのJS読み込み -->
+	<script src="../static/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../static/bootstrap/js/bootstrap.js"></script>
+	<script src="https://kit.fontawesome.com/7bb95e7ca3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-dark bg-primary">
+		<a href="#" class="navbar-brand">PandA</a>
+	</nav>
+	<div class="container-fluid" style="max-width: 90vw;">
+		<div class="row">
+			<div class="col-md-10 col-sm-12" id="BreadCrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item"><a href="#">Library</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Data</li>
+				</ol>
+			</div>
+			<div class="col-md-10 col-sm-12" id="Main">
+				<div>
+					<h3>PandAのログイン前の画面の説明</h3>
+					<div
+						class="title instructions screensteps-textblock screensteps-wrapper--introduction screensteps-wrapper">
+						<p>　
+							<a href=https://panda.ecs.kyoto-u.ac.jp/portal>
+								https://panda.ecs.kyoto-u.ac.jp/portal/
+							</a>
+							にアクセスしたとき、ログイン前は下のような画面になっていると思います。画面の各エリアについて説明します。
+						</p>
+						<p>（スクリーンショットが入ります）</p>
+						<h4>1.ログインボタン</h4>
+						<p>　1のエリアはログインボタンです。ログインボタンをクリックすると、ログイン画面に移り、ECS-IDとパスワードの入力を求められます。</p>
+						<h4>2.ツールバー</h4>
+						<p>　PandAの元となっているサービスSakaiについてです。特に見なくても日常的にPandAを利用するうえで問題ありません。</p>
+						<h4>3.PandAの利用法解説</h4>
+						<p>　主にPandAを使い慣れていない方々へ向けて、PandAの使い方を紹介しています。</p>
+						<h4>4.PandAに関するお知らせ</h4>
+						<P>　PandAに関するお知らせが掲載されています。システム障害やメンテナンスなどのメッセージも掲載されるため、たまにチェックするようにしましょう。</P>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2 d-flex flex-column" id="Sidebar">
+				Sidebar
+				<a data-toggle="collapse" href="#Topic1" aria-expanded="false" aria-controls="Topic1">
+					Topic1
+				</a>
+				<div class="collapse" id="Topic1">
+					<div class=" d-flex flex-column">
+						<a href="#">Link1</a>
+						<a href="#">Link2</a>
+					</div>
+				</div>
 			</div>
 		</div>
-	</body>
+	</div>
+	<footer>
+		<div class="container-fluid" id="footer">
+			<div class="row">
+				<h3 class="mx-auto mt-5">京都大学 京都大学情報環境機構</h3>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
 </html>

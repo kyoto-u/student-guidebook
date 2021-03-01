@@ -1,95 +1,155 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <link rel="stylesheet" href="/static//css/original.css" type="text/css">
-    </head>
-    <body>
-        <div>
-            <h1>課題提出の流れ</h1>
-            <!-- <div class="title instructions screensteps-textblock screensteps-wrapper--introduction screensteps-wrapper">
-                
-                課題は授業ページの課題タブから提出できます。
-                課題タブをクリックすると課題一覧が表示され、課題タイトルをクリックすることで各課題の詳細に移動します。
-                そのページで課題が提出可能です。提出の詳細については以下をご覧ください。<br>
-                <a href="/templates/assignment_list.htm">課題一覧表の見方（提出状態などの各列の説明，ソート）</a>
-                <a href="/templates/assignment_details.htm">課題の詳細</a>
-            </div> -->
-            <div class="step step1">
-                <h2>「課題」ページへ遷移する</h2>
-                <div class="image clearfix">
-                    <img src="" alt="">screenshot
-                </div>
-                <div class="instructions">
-                    <p>授業ページの課題タブをクリックする</p>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PandA Guide</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/Style_for_lg.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="../static/css/Style_for_sm.css" media="screen and (max-width: 768px)">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script
+        src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/7bb95e7ca3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <a href="#" class="navbar-brand">PandA</a>
+    </nav>
+    <div class="container-fluid" style="max-width: 90vw;">
+        <div class="row">
+            <div class="col-md-10 col-sm-12" id="BreadCrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Data</li>
+                </ol>
+            </div>
+            <div class="col-md-10 col-sm-12" id="Main">
+                <div>
+                    <h3>課題提出の流れ</h3>
+                    <!-- <div class="title instructions screensteps-textblock screensteps-wrapper--introduction screensteps-wrapper">
+                                
+                                課題は授業ページの課題タブから提出できます。
+                                課題タブをクリックすると課題一覧が表示され、課題タイトルをクリックすることで各課題の詳細に移動します。
+                                そのページで課題が提出可能です。提出の詳細については以下をご覧ください。<br>
+                                <a href="/templates/assignment_list.htm">課題一覧表の見方（提出状態などの各列の説明，ソート）</a>
+                                <a href="/templates/assignment_details.htm">課題の詳細</a>
+                            </div> -->
+                    <div class="step step1">
+                        <h4>「課題」ページへ遷移する</h4>
+                        <div class="image clearfix">
+                            <img src="" alt="">screenshot
+                        </div>
+                        <div class="instructions">
+                            <p>授業ページの課題タブをクリックする</p>
+                        </div>
+                    </div>
+                    <div class="step step2">
+                        <h4>課題のタイトルをクリックする</h4>
+                        <div class="image clearfix">
+                            <img src="" alt="">screenshot
+                        </div>
+                        <div class="instructions">
+                            <p>
+                                サイト内の全課題の一覧が表示されます。各課題について、以下の情報が表示されます。
+                            </p>
+                            <ol>
+                                <li>課題のタイトル</li>
+                                <li>ステータス（未開始、課題提出が必要、返却、提出日時など）</li>
+                                <li>学生が課題を利用できるようになる公開日</li>
+                                <li>提出期限</li>
+                            </ol>
+                            <p>リスト内の課題のタイトルをクリックして、提出したい課題を選択してください。</p>
+                        </div>
+                    </div>
+                    <div class="step step3">
+                        <h4>課題を入力・添付する</h4>
+                        <div class="image clearfix">
+                            <img src="" alt="">screenshot
+                        </div>
+                        <div class="instructions">
+                            <p>課題をインラインで入力したり、ファイルを添付したりします。
+                                課題の設定によりどちらか一方のみしか使用できない場合もあります。インストラクターの指示通りの方法で提出してください。</p>
+                            <ol>
+                                <li>
+                                    リッチテキストエディタを使用して、課題テキストエリアに提出課題のテキストを入力してください。
+                                </li>
+                                <li>
+                                    添付ファイルの下で、「ファイルを選択」ボタンをクリックして、コンピュータからアップロードするファイルを選択してください。
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="step step4">
+                        <h4>添付ファイルを見る</h4>
+                        <div class="image clearfix">
+                            <img src="" alt="">screenshot
+                        </div>
+                        <div class="instructions">
+                            ファイルを添付すると、ファイル名、ファイルサイズ、アップロードのタイムスタンプが「添付ファイル」の下に表示されます。
+                            間違ったファイルを選択した場合は、[削除] をクリックして添付ファイルを削除することができます。
+                        </div>
+                    </div>
+                    <div class="step step5">
+                        <h4>課題を提出する</h4>
+                        <div class="image clearfix">
+                            <img src="" alt="">screenshot
+                        </div>
+                        <div class="instructions">
+                            課題を提出する準備ができたら、提出ボタンをクリックして課題の提出を完了します。
+                            まだ提出する準備ができていない場合、[プレビュー] をクリックして提出課題をプレビューするか、[下書きを保存] をクリックして提出課題を保存し、後で提出することができます。
+                            キャンセルをクリックすると、保存または提出せずに課題を終了することができます。
+                        </div>
+                    </div>
+                    <div class="step step6">
+                        <h4>提出物の確認</h4>
+                        <div class="image clearfix">
+                            <img src="" alt="">screenshot
+                        </div>
+                        <div class="instructions">
+                            課題を提出すると、画面上に確認メッセージが表示されます。
+                            さらに、提出した課題の確認メールが送信されます。
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="step step2">
-                <h2>課題のタイトルをクリックする</h2>            
-                <div class="image clearfix">
-                    <img src="" alt="">screenshot
-                </div>
-                <div class="instructions">
-                    <p>
-                        サイト内の全課題の一覧が表示されます。各課題について、以下の情報が表示されます。
-                    </p>
-                    <ol>
-                        <li>課題のタイトル</li>
-                        <li>ステータス（未開始、課題提出が必要、返却、提出日時など）</li>
-                        <li>学生が課題を利用できるようになる公開日</li>
-                        <li>提出期限</li>
-                    </ol>
-                    <p>リスト内の課題のタイトルをクリックして、提出したい課題を選択してください。</p>
-                </div>
-            </div>
-            <div class="step step3">
-                <h2>課題を入力・添付する</h2>
-                <div class="image clearfix">
-                    <img src="" alt="">screenshot
-                </div>
-                <div class="instructions">
-                    <p>課題をインラインで入力したり、ファイルを添付したりします。
-                        課題の設定によりどちらか一方のみしか使用できない場合もあります。インストラクターの指示通りの方法で提出してください。</p>
-                    <ol>
-                        <li>
-                            リッチテキストエディタを使用して、課題テキストエリアに提出課題のテキストを入力してください。
-                        </li>
-                        <li>
-                            添付ファイルの下で、「ファイルを選択」ボタンをクリックして、コンピュータからアップロードするファイルを選択してください。
-                        </li>
-                    </ol>
-                </div>
-            </div>
-            <div class="step step4">
-                <h2>添付ファイルを見る</h2>
-                <div class="image clearfix">
-                    <img src="" alt="">screenshot
-                </div>
-                <div class="instructions">
-                    ファイルを添付すると、ファイル名、ファイルサイズ、アップロードのタイムスタンプが「添付ファイル」の下に表示されます。
-                    間違ったファイルを選択した場合は、[削除] をクリックして添付ファイルを削除することができます。
-                </div>
-            </div>
-            <div class="step step5">
-                <h2>課題を提出する</h2>
-                <div class="image clearfix">
-                    <img src="" alt="">screenshot
-                </div>
-                <div class="instructions">
-                    課題を提出する準備ができたら、提出ボタンをクリックして課題の提出を完了します。
-                    まだ提出する準備ができていない場合、[プレビュー] をクリックして提出課題をプレビューするか、[下書きを保存] をクリックして提出課題を保存し、後で提出することができます。
-                    キャンセルをクリックすると、保存または提出せずに課題を終了することができます。
-                </div>
-            </div>
-            <div class="step step6">
-                <h2>提出物の確認</h2>
-                <div class="image clearfix">
-                    <img src="" alt="">screenshot
-                </div>
-                <div class="instructions">
-                    課題を提出すると、画面上に確認メッセージが表示されます。
-                    さらに、提出した課題の確認メールが送信されます。
+            <div class="col-md-2 d-flex flex-column" id="Sidebar">
+                Sidebar
+                <a data-toggle="collapse" href="#Topic1" aria-expanded="false" aria-controls="Topic1">
+                    Topic1
+                </a>
+                <div class="collapse" id="Topic1">
+                    <div class=" d-flex flex-column">
+                        <a href="#">Link1</a>
+                        <a href="#">Link2</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+    <footer>
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <h3 class="mx-auto mt-5">京都大学 京都大学情報環境機構</h3>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
 </html>
