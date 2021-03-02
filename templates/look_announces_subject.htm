@@ -1,102 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PandA Guide</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="../static/css/Style_for_lg.css"
-      media="screen and (min-width: 768px)"
-    />
-    <link
-      rel="stylesheet"
-      href="../static/css/Style_for_sm.css"
-      media="screen and (max-width: 768px)"
-    />
-    <!-- jQuery読み込み -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../static/bootstrap/js/bootstrap.js"></script>
-    <script
-      src="https://kit.fontawesome.com/7bb95e7ca3.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-dark bg-primary">
-      <a href="#" class="navbar-brand">PandA</a>
-    </nav>
-    <div class="container-fluid" style="max-width: 90vw">
-      <div class="row">
-        <div class="col-md-10 col-sm-12" id="BreadCrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item">
-              <a href="#">授業のお知らせを確認する</a>
-            </li>
-            <li class="breadcrumb-item active" aria-current="page">
-              各授業ごとのお知らせを見る
-            </li>
-          </ol>
-        </div>
-        <div class="col-md-10 col-sm-12" id="Main">
-          <div>
-            <h3 class="Article_title">各授業ごとのお知らせを見る</h3>
-            <div
-              class="title instructions screensteps-textblock screensteps-wrapper--introduction screensteps-wrapper"
-            >
-              <div>
-                各授業のお知らせ用ページは対応する授業の授業ページ（コースサイトとも言います）に用意されていますので、まずは授業ページに移動します。授業ページへの移動の仕方は<a
-                  href="#"
-                  >こちら</a
-                >をご確認ください。
-              </div>
-              <div>
-                一部のお知らせは授業ページの概要に掲載されています。
-                すべてのお知らせを確認したい場合は下の画面にある通り、授業ページの左ツールバーから「お知らせ」または「announces」を選択し、お知らせページに遷移します。<br />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PandA Guide</title>
+  <!-- BootstrapのCSS読み込み -->
+  <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../static/css/Style_for_lg.css" media="screen and (min-width: 768px)" />
+  <link rel="stylesheet" href="../static/css/Style_for_sm.css" media="screen and (max-width: 768px)" />
+  <!-- jQuery読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+  <!-- BootstrapのJS読み込み -->
+  <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../static/bootstrap/js/bootstrap.js"></script>
+  <script src="https://kit.fontawesome.com/7bb95e7ca3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-primary">
+    <a href="#" class="navbar-brand">PandA</a>
+  </nav>
+  <div class="container-fluid" style="max-width: 90vw">
+    <div class="row">
+      <div class="col-md-10 col-sm-12" id="BreadCrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item">
+            <a href="#">授業のお知らせを確認する</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            各授業ごとのお知らせを見る
+          </li>
+        </ol>
+      </div>
+      <div class="col-md-10 col-sm-12" id="Main">
+        <div>
+          <h3 class="Article_title">各授業ごとのお知らせを見る</h3>
+          <div class="title instructions screensteps-textblock screensteps-wrapper--introduction screensteps-wrapper">
+            <div>
+              <p>
+                各授業ごとのお知らせは各授業ページ（コースサイトとも言います）に掲載されています。対応する授業ページにアクセスしてください。<br>
+                各授業ページに移動する方法は<a href="#">こちら</a>を参照してください。
+              </p>
+              <p>
+                すべてのお知らせを確認する場合は、授業ページの左ツールバーから「お知らせ」または「announces」をクリックし、お知らせページに遷移してください。<br>
                 (ここにスクリーンショットが入ります)<br />
-              </div>
+              </p>
+            </div>
+            <div class="mt-5">
+              <p>
+
+                ※お知らせは授業ページの概要にも掲載されている場合があります
+              </p>
+
             </div>
           </div>
         </div>
-        <div class="col-md-2 d-flex flex-column" id="Sidebar">
-          Sidebar
-          <a
-            data-toggle="collapse"
-            href="#Topic1"
-            aria-expanded="false"
-            aria-controls="Topic1"
-          >
-            Topic1
-          </a>
-          <div class="collapse" id="Topic1">
-            <div class="d-flex flex-column">
-              <a href="#">Link1</a>
-              <a href="#">Link2</a>
-            </div>
+      </div>
+      <div class="col-md-2 d-flex flex-column" id="Sidebar">
+        Sidebar
+        <a data-toggle="collapse" href="#Topic1" aria-expanded="false" aria-controls="Topic1">
+          Topic1
+        </a>
+        <div class="collapse" id="Topic1">
+          <div class="d-flex flex-column">
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
           </div>
         </div>
       </div>
     </div>
-    <footer>
-      <div class="container-fluid" id="footer">
-        <div class="row">
-          <h3 class="mx-auto mt-5">京都大学 京都大学情報環境機構</h3>
-        </div>
+  </div>
+  <footer>
+    <div class="container-fluid" id="footer">
+      <div class="row">
+        <h3 class="mx-auto mt-5">京都大学 京都大学情報環境機構</h3>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
