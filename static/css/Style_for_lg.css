@@ -16,6 +16,9 @@ body{
 .breadcrumb-item > a{
     color:#508fe6;
 }
+.active > a{
+    color:rgb(105, 104, 104);
+}
 
 .navbar{
     background-color:#003e83;
@@ -33,6 +36,7 @@ body{
 .Article_title{
     margin-top:20px;
     margin-bottom:30px;
+    color:#4783d6;
 }
 .step{
     margin-top:50px;
