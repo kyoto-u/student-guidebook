@@ -1,11 +1,14 @@
 
 #Main{
-    background-color: aliceblue;
+    background-color: #a2d7dd;
     padding-bottom: 100px;
 }
 
+.navbar{
+    background-color:#2792c3;
+}
 #Sidebar{
-    background-color: lightyellow;
+    background-color: #BCB09C;
     min-height: 100vh;
 }
 
