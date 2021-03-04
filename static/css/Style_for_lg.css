@@ -1,14 +1,28 @@
-
+body{
+    background-color:#f5f5da;
+    font-family: "Meiryo UI";
+}
 #Main{
-    background-color: #a2d7dd;
+    background-color:#eafffd;
     padding-bottom: 100px;
 }
 
+#BreadCrumb{
+    background-color: #b6d2cc;
+}
+.breadcrumb{
+    background-color: #b6d2cc;
+}
+.breadcrumb-item{
+    color: aliceblue;
+    font-size: medium;
+}
+
 .navbar{
-    background-color:#2792c3;
+    background-color:#003e83;
 }
 #Sidebar{
-    background-color: #BCB09C;
+    background-color: #c0b490;
     min-height: 100vh;
 }
 
