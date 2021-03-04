@@ -13,9 +13,8 @@ body{
 .breadcrumb{
     background-color: #b6d2cc;
 }
-.breadcrumb-item{
-    color: aliceblue;
-    font-size: medium;
+.breadcrumb-item > a{
+    color:#508fe6;
 }
 
 .navbar{
@@ -42,9 +41,9 @@ body{
     margin-top:15px;
 }
 .topic > h5 > a{
-    color:midnightblue;
+    color:#003e83;
 }
 
 .subtopic > a{
-    color:royalblue;
+    color:#4783d6;
 }
