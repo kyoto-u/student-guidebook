@@ -51,3 +51,11 @@ body{
 .subtopic > a{
     color:#4783d6;
 }
+
+img{
+    width:55vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top:20px;
+    margin-bottom:20px;
+}
