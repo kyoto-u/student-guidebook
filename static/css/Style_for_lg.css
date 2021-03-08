@@ -1,31 +1,31 @@
 body{
-    background-color:#f5f5da;
+    background-color:#dbdbdb;
     font-family: "Meiryo UI";
 }
 #Main{
-    background-color:#edfdfc;
+    background-color:white;
     padding-bottom: 100px;
 }
 
 #BreadCrumb{
-    background-color: #b6d2cc;
+    background-color: rgb(238,238,238);
 }
+
 .breadcrumb{
-    background-color: #b6d2cc;
+    background-color: rgb(238,238,238);
 }
-.breadcrumb-item > a{
-    color:#508fe6;
-}
-.active > a{
-    color:rgb(105, 104, 104);
-}
+
 
 .navbar{
     background-color:#003e83;
 }
 #Sidebar{
-    background-color: #c0b490;
+    background-color: #007e9e;
     min-height: 100vh;
+    color:white;
+}
+#Sidebar > a{
+    color:whitesmoke;
 }
 
 #footer{
