@@ -27,7 +27,14 @@
     <nav class="navbar navbar-dark ">
         <a href="#" class="navbar-brand">PandA</a>
     </nav>
-    <div class="container-fluid" style="max-width: 90vw;">
+    <div class="fixed-top d-block d-md-none">
+        <div class="container">
+            <div class="row">
+                <button class="btn btn-success ml-auto">ホームに戻る</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-10 col-sm-12 rounded" id="BreadCrumb">
                 <ol class="breadcrumb my-auto">
@@ -58,8 +65,10 @@
                             <li class="topic" id="topic2">
                                 <h5><a href="#">科目ページにアクセスする</a></h5>
                                 <ul>
-                                    <li class="subtopic"><a href="/templates/what_is_coursesite.htm">科目ページとは</a></li>
-                                    <li class="subtopic"><a href="/templates/add_coursesite.htm">科目ページを上のタブに追加する</a>
+                                    <li class="subtopic"><a href="/templates/what_is_coursesite.htm">科目ページでできること</a>
+                                    </li>
+                                    <li class="subtopic"><a
+                                            href="/templates/add_coursesite.htm">画面上部の授業メニューに科目ページを追加・削除する</a>
                                     </li>
 
                                 </ul>
@@ -70,7 +79,7 @@
                                     <li class="subtopic"><a href="/templates/where_are_recources.htm">授業資料ページへの行き方</a>
                                     </li>
                                     <li class="subtopic"><a
-                                            href="/templates/instructions_of_resources.htm">授業資料ページの見方</a>
+                                            href="/templates/instructions_of_resources.htm">授業資料ページの説明</a>
                                     </li>
                                 </ul>
                             </li>
@@ -84,7 +93,7 @@
                                         <a href="/templates/assignment_list.htm">課題一覧表の見方（提出状態などの各列の説明，ソート）</a>
                                     </li>
                                     <li class="subtopic">
-                                        <a href="/templates/assignment_details.htm">課題詳細の見方（テキストエディタ，添付，再提出）</a>
+                                        <a href="/templates/assignment_details.htm">フィードバックを閲覧する</a>
                                     </li>
                                 </ul>
                             </li>
@@ -93,7 +102,7 @@
                                     <a href="/templates/index.htm#topic5">「テスト・クイズ」でテストを受ける・クイズに答える</a>
                                 </h5>
                                 <ul>
-                                    <li class="subtopic"><a href="/templates/test_process.htm">課題提出の大まかな流れ</a></li>
+                                    <li class="subtopic"><a href="/templates/test_process.htm">テスト・クイズを受験する流れ</a></li>
                                     <li class="subtopic"><a href="/templates/test_feedback.htm">テスト・クイズのフィードバックを確認する</a>
                                     </li>
                                 </ul>
@@ -111,7 +120,7 @@
                                             href="/templates/where_is_media_gallery.htm">メディアギャラリにアクセスする</a>
                                     </li>
                                     <li class="subtopic"><a
-                                            href="/templates/instructions_of_media_gallery.htm">メディアギャラリの見方</a>
+                                            href="/templates/instructions_of_media_gallery.htm">メディアギャラリの説明</a>
                                     </li>
                                 </ul>
                             </li>
@@ -126,24 +135,26 @@
                                 </ul>
                             </li>
                             <li class="topic" id="topic10">
-                                <h5>
-                                    <a href="/templates/forum_chat.htm">フォーラムやチャットルームでメッセージを投稿/閲覧する</a>
-                                </h5>
-                            </li>
-                            <li class="topic" id="topic11">
-                                <h5>
-                                    <a href="/templates/external_tools.htm">外部サイト、ツールを利用する(Zoom, Turn it in, BookRoll
-                                        など)</a>
-                                </h5>
-                            </li>
-                            <li class="topic">
                                 <h5><a href="#">ユーザーの各設定を変更する</a></h5>
                                 <ul>
                                     <li class="subtopic">
-                                        <a href="/templates/language_site_settings.htm">言語設定/科目の表示・非表示設定</a>
+                                        <a href="/templates/language_site_settings.htm">ユーザー設定を変更する(言語/科目の表示・非表示)</a>
                                     </li>
                                     <li class="subtopic">
                                         <a href="#">概要ページ：カレンダー、今日のメッセージ、メッセージセンターに関する個別の設定</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="topic" id="topic11">
+                                <h5><a href="#">その他</a></h5>
+                                <ul>
+                                    <li class="subtopic">
+                                        <a href="/templates/forum_chat.htm">フォーラムやチャットルームでメッセージを投稿/閲覧する</a>
+                                    </li>
+                                    <li class="subtopic">
+                                        <a href="/templates/external_tools.htm">外部サイト、ツールを利用する(Zoom, Turn it in,
+                                            BookRoll
+                                            など)</a>
                                     </li>
                                 </ul>
                             </li>
