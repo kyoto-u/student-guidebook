@@ -25,12 +25,20 @@
     <script src="../static/bootstrap/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/7bb95e7ca3.js" crossorigin="anonymous"></script>
 </head>
+<!--checked-->
 
 <body>
     <nav class="navbar navbar-dark">
         <a href="#" class="navbar-brand">PandA</a>
     </nav>
-    <div class="container-fluid" style="max-width: 90vw;">
+    <div class="fixed-top d-block d-md-none">
+        <div class="container">
+            <div class="row">
+                <button class="btn btn-success ml-auto">ホームに戻る</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-10 col-sm-12 rounded" id="BreadCrumb">
                 <div>
@@ -73,12 +81,12 @@
                             <img src="" alt="">screenshot
                         </div>
                         <div class="instructions">
-                            <p>課題の詳細とフィードバックが表示されます。</p>
+                            <p>課題の詳細とフィードバックが表示されます。表示内容を以下に列挙します。</p>
                             <ol>
-                                <li>タイトル、学生名、提出日、評点、提出履歴が上部に表示されます。</li>
-                                <li>課題の説明と添付ファイルは提出課題と評点情報の下に表示されます。</li>
-                                <li>あなたの提出課題および添付ファイルは課題の詳細の下に表示されます。</li>
-                                <li>>教授のコメントおよび添付ファイルは下部に表示されます。</li>
+                                <li>タイトル、学生名、提出日、評点、提出履歴</li>
+                                <li>課題の説明、課題添付ファイル</li>
+                                <li>提出課題、あなたの提出添付ファイル</li>
+                                <li>教授のコメント、コメント添付ファイル</li>
                             </ol>
                         </div>
                     </div>
