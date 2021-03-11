@@ -51,6 +51,7 @@ html{
 .topic > h5{
     margin-top:15px;
     font-size: medium;
+    pointer-events: none;
 }
 .topic > h5 > a{
     color:#003e83;
