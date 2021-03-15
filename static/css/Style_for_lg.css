@@ -35,6 +35,7 @@ html{
 }
 #Sidebar > a{
     color:whitesmoke;
+    font-size:small;
 }
 
 #footer{
@@ -107,4 +108,5 @@ h5{
 
 #Sidebar>div>div>a{
     color:#dbdbdb;
+    font-size:small;
 }
