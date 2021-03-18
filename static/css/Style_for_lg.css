@@ -32,6 +32,7 @@ html{
     background-color: #003e83;
     min-height: 100vh;
     color:white;
+    padding-bottom:400px;
 }
 #Sidebar > a{
     color:whitesmoke;
