@@ -99,6 +99,11 @@ img.sm{
     border: 1px gray solid;
 }
 
+.img-xs{
+    width:30vw;
+    border: 1px gray solid;
+}
+
 p{
     margin-top:10px;
     margin-bottom:10px;
