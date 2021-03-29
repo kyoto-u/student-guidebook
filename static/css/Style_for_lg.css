@@ -99,6 +99,15 @@ img.sm{
     border: 1px gray solid;
 }
 
+img.sm-r{
+    width: 25vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top:20px;
+    margin-bottom:20px;
+    border: 1px gray solid;
+}
+
 .img-xs{
     width:30vw;
     border: 1px gray solid;
