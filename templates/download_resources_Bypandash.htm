@@ -1,3 +1,6 @@
+﻿<!DOCTYPE HTML>
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,171 +25,30 @@
     <script src="../static/bootstrap/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/7bb95e7ca3.js" crossorigin="anonymous"></script>
 </head>
+<!--これはひな形のファイルです-->
 
 <body>
     <nav class="navbar navbar-dark ">
         <a href="#" class="navbar-brand">PandA</a>
     </nav>
+    <div class="fixed-top d-block d-md-none">
+        <div class="container">
+            <div class="row">
+                <button class="btn btn-success ml-auto" onclick="location.href='./index.htm'">ホームに戻る</button>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-10 col-sm-12 rounded" id="BreadCrumb">
                 <ol class="breadcrumb my-auto">
-                    <li class="breadcrumb-item　active" aria-current="page"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/templates/index.htm">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/templates/index.htm#topic13">[付録] PandAshを利用する</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">PandAshで授業資料をダウンロードする</li>
                 </ol>
             </div>
             <div class="col-md-10 col-sm-12" id="Main">
-                <!-- トピックを羅列する -->
-                <div>
-                    <h2 class="Article_title">PandA 学生用ガイド</h2>
-                    <div>
-                        <h4>PandAとは？</h4>
-                        PandAは、京都大学情報環境機構が平成25年に運用を開始した学習支援システムです。<br>
-                        授業と連動して、教員と学生がWeb上で課題や授業資料をやりとりできます。<br>
-                        また、PandAからリモート授業用のZoom会議にアクセスできます。<br>
-                        PandAの利用には学生アカウント(ECS-ID)が必要です。
-                    </div>
-                    <div>
-                        <strong>
-                        PandAを利用する上でのご注意がございます。<a href="/templates/_alert_for_users.htm">こちら</a>を必ずお読みください。
-                        </strong>
-                    </div>
-                    <div>
-                        <ul>
-                            <li class="topic" id="topic1">
-                                <h5><a href="#">PandAにログインする</a></h5>
-                                <ul>
-                                    <li class="subtopic"><a href="/templates/how_to_login.htm">PandAへのログイン方法</a></li>
-                                    <li class="subtopic"><a
-                                            href="/templates/instructions_of_portal.htm">PandAのログイン前の画面の説明</a></li>
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic2">
-                                <h5><a href="#">各科目のコースサイトにアクセスする</a></h5>
-                                <ul>
-                                    <li class="subtopic"><a href="/templates/what_is_coursesite.htm">各科目のコースサイトでできること</a>
-                                    </li>
-                                    <li class="subtopic">
-                                        <a href="/templates/add_coursesite.htm">画面上部の科目タブに各科目のコースサイトを追加・削除する</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic3">
-                                <h5><a href="#">授業資料を閲覧・ダウンロードする</a></h5>
-                                <ul>
-                                    <li class="subtopic"><a href="/templates/where_are_recources.htm">授業資料ページへの行き方</a>
-                                    </li>
-                                    <li class="subtopic"><a
-                                            href="/templates/instructions_of_resources.htm">授業資料ページの説明</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic4">
-                                <h5><a href="#">Zoomを利用する</a></h5>
-                                <ul>
-                                    <li class="subtopic">
-                                        <a href="/templates/zoom.htm">Zoom授業にアクセスする</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic5">
-                                <h5><a href="#">「課題」欄で課題を提出する</a></h5>
-                                <ul>
-                                    <li class="subtopic"><a
-                                            href="/templates/assignment_submisson_process.htm">課題提出の流れ</a>
-                                    </li>
-                                    <li class="subtopic">
-                                        <a href="/templates/assignment_list.htm">課題一覧表の見方（提出状態などの各列の説明，ソート）</a>
-                                    </li>
-                                    <li class="subtopic">
-                                        <a href="/templates/assignment_details.htm">フィードバックを閲覧する</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic6">
-                                <h5>
-                                    <a href="/templates/index.htm#topic5">「テスト・クイズ」でテストを受ける・クイズに答える</a>
-                                </h5>
-                                <ul>
-                                    <li class="subtopic"><a href="/templates/test_process.htm">テスト・クイズを受験する流れ</a></li>
-                                    <li class="subtopic"><a href="/templates/test_feedback.htm">テスト・クイズのフィードバックを確認する</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic7">
-                                <h5><a href="#">「提出箱」でファイルを提出する</a></h5>
-                                <ul>
-                                    <li class="subtopic"><a
-                                            href="/templates/submission_box_submission_process.htm">「提出箱」でファイルを提出する流れ</a>
-                                    </li>
-                                    <li class="subtopic">
-                                        <a href="/templates/instructions_of_submission_box.htm">提出箱ページの説明</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic8">
-                                <h5><a href="/templates/view_gradebook.htm">成績を見る</a></h5>
-                                <ul>
-                                    <li class="subtopic"><a href="/templates/view_gradebook.htm">成績簿ツールを使う</a></li>
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic9">
-                                <h5><a href="#">メディアギャラリで授業動画を見る</a></h5>
-                                <ul>
-                                    <li class="subtopic"><a
-                                            href="/templates/where_is_media_gallery.htm">メディアギャラリにアクセスする</a>
-                                    </li>
-                                    <li class="subtopic"><a
-                                            href="/templates/instructions_of_media_gallery.htm">メディアギャラリページの説明</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic10">
-                                <h5><a href="#">授業のお知らせを確認する</a></h5>
-                                <ul>
-                                    <li class="subtopic"><a
-                                            href="/templates/look_announces_subject.htm">各科目ごとのお知らせを見る</a>
-                                    </li>
-                                    <li class="subtopic"><a href="/templates/look_announces_all.htm">全科目のお知らせを一覧で見る</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic11">
-                                <h5><a href="#">ユーザーの各設定を変更する</a></h5>
-                                <ul>
-                                    <li class="subtopic">
-                                        <a href="/templates/language_site_settings.htm">ユーザー設定を変更する(言語/科目の表示・非表示)</a>
-                                    </li>
-                                    <li class="subtopic">
-                                        <a href="/templates/settings_overview.htm">概要ページ：カレンダー、今日のメッセージ、メッセージセンターに関する個別の設定</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic12">
-                                <h5><a href="#">その他</a></h5>
-                                <ul>
-                                    <li class="subtopic">
-                                        <a href="/templates/forum_chat.htm">フォーラムやチャットルームでメッセージを投稿/閲覧する</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="topic" id="topic13">
-                                <h5><a href="#">[付録] PandAshを利用する</a></h5>
-                                <ul>
-                                    <li class="subtopic">
-                                        <a href="/templates/what_is_pandash.htm">PandAshとは</a>
-                                    </li>
-                                    <li class="subtopic">
-                                        <a href="/templates/check_assignments_Bypandash.htm">PandAshで課題を確認する</a>
-                                    </li>
-                                    <li class="subtopic">
-                                        <a href="/templates/download_resources_Bypandash.htm">PandAshで授業資料をダウンロードする</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <h3 class="Article_title">PandAshで授業資料をダウンロードする</h3>
             </div>
             <div class="col-md-2 d-none d-md-flex flex-column rounded" id="Sidebar">
                 <!--  -->
@@ -295,7 +157,8 @@
                 <div class="collapse" id="Side_topic7">
                     <div class=" d-flex flex-column">
                         <ul>
-                            <li class="subtopic"><a href="/templates/submission_box_submission_process.htm">「提出箱」でファイルを提出する流れ</a>
+                            <li class="subtopic"><a
+                                    href="/templates/submission_box_submission_process.htm">「提出箱」でファイルを提出する流れ</a>
                             </li>
                             <li class="subtopic">
                                 <a href="/templates/instructions_of_submission_box.htm">提出箱ページの説明</a>
@@ -389,7 +252,8 @@
     <footer>
         <div class="container-fluid" id="footer">
             <div class="row">
-                <small class="ml-auto mt-5">Copyright 2021 Institute for Information Management and Communication, Kyoto University. All rights reserved.</small>
+                <small class="ml-auto mt-5">Copyright 2021 Institute for Information Management and Communication, Kyoto
+                    University. All rights reserved.</small>
 
 
             </div>
