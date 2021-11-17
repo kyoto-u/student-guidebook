@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PandA Guide</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/Style_for_lg.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="../static/css/Style_for_sm.css" media="screen and (max-width: 768px)">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script
+        src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/7bb95e7ca3.js" crossorigin="anonymous"></script>
+</head>
+<!--checked-->
+
+<body>
+    <nav class="navbar navbar-dark">
+        <a href="#" class="navbar-brand">PandA</a>
+    </nav>
+    <div class="fixed-top d-block d-md-none">
+        <div class="container">
+            <div class="row">
+                <button class="btn btn-success ml-auto" onclick="location.href='./index.htm'">ホームに戻る</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 col-sm-12" id="BreadCrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.htm">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.htm#topic7">「提出箱」でファイルを提出する</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">「提出箱」でファイルを提出する流れ</li>
+                </ol>
+            </div>
+            <div class="col-md-10 col-sm-12" id="Main">
+                <div>
+                    <h3 class="Article_title">「提出箱」でファイルを提出する流れ</h3>
+                    <!-- <div class="title instructions screensteps-textblock screensteps-wrapper--introduction screensteps-wrapper">
+                                
+                                課題は授業ページの課題タブから提出できます。
+                                課題タブをクリックすると課題一覧が表示され、課題タイトルをクリックすることで各課題の詳細に移動します。
+                                そのページで課題が提出可能です。提出の詳細については以下をご覧ください。<br>
+                                <a href="assignment_list.htm">課題一覧表の見方（提出状態などの各列の説明，ソート）</a>
+                                <a href="assignment_details.htm">課題の詳細</a>
+                            </div> -->
+                    <div>
+                        <strong>※大学構内のレポート提出場所に提出するべきもの、PandAの課題欄で提出する課題、テストクイズの回答を「提出箱」に提出しても提出とみなされません。</strong><br />
+                        教員の指示に従って提出を行なってください。
+                    </div>
+                    <div class="step step1">
+                        <h4>1. 「提出箱」ページへ遷移する</h4>
+                        <div class="image clearfix">
+                            <img src="../static/images/submission_box_submission_process_1.png">
+                        </div>
+                        <div class="instructions">
+                            <p>各科目のコースサイトの左メニューから「提出箱」をクリックして、「提出箱」ページに移ってください。</p>
+                        </div>
+                    </div>
+                    <div class="step step2">
+                        <h4>2. 「アクション」から「ファイルをアップロードする」を選択する</h4>
+                        <div class="image clearfix">
+                            <img src="../static/images/submission_box_submission_process_2.png">
+                        </div>
+                    </div>
+                    <div class="step step3">
+                        <h4>3. 提出ファイルを選択する</h4>
+                        <div class="image clearfix">
+                            <img src="../static/images/submission_box_submission_process_3.png">
+                        </div>
+                        <div class="instructions">
+                            <p>
+                                提出するファイルを赤のエリアにドラッグしてくるか、赤のエリアをクリックして、ファイルを選択します。
+                            </p>
+                            <p>
+                            <div class="image clearfix">
+                                <img src="../static/images/submission_box_submission_process_4.png">
+                            </div>
+                            <div class="instructions">
+                                ファイル名、ファイルサイズが赤のエリアに表示されます。<br>
+                                間違ったファイルを選択した場合は、[ファイル削除] をクリックして添付ファイルを削除することができます。<br>
+                            </div>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="step step4">
+                        <h4>4.ファイルを提出する</h4>
+                        <div class="instructions">
+                            <p>
+                                ファイルを提出する準備ができたら、[続ける]をクリックしてファイルの提出を完了してください。正常に完了した場合、提出箱に提出したファイルが表示されます。<br>
+                                [キャンセル]をクリックすると、提出せずに戻ることができます。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 d-none d-md-flex flex-column rounded" id="Sidebar">
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic1" aria-expanded="false" aria-controls="Side_topic1"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>PandAにログインする
+                </a>
+                <div class="collapse" id="Side_topic1">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li>
+                                <a href="how_to_login.htm">PandAへのログイン方法</a>
+                            </li>
+                            <li>
+                                <a href="instructions_of_portal.htm">PandAのログイン前の画面の説明</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic2" aria-expanded="false" aria-controls="Side_topic2"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>各科目のコースサイトにアクセスする
+                </a>
+                <div class="collapse" id="Side_topic2">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li>
+                                <a href="what_is_coursesite.htm">各科目のコースサイトでできること</a>
+                            </li>
+                            <li>
+                                <a href="add_coursesite.htm">画面上部の科目タブに各科目のコースサイトを追加・削除する</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic3" aria-expanded="false" aria-controls="Side_topic3"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>授業資料を閲覧・ダウンロードする
+                </a>
+                <div class="collapse" id="Side_topic3">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li>
+                                <a href="where_are_recources.htm">授業資料ページへの行き方</a>
+                            </li>
+                            <li>
+                                <a href="instructions_of_resources.htm">授業資料ページの説明</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic4" aria-expanded="false" aria-controls="Side_topic4"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>Zoomを利用する
+                </a>
+                <div class="collapse" id="Side_topic4">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li class="subtopic">
+                                <a href="zoom.htm">Zoom授業にアクセスする</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic5" aria-expanded="false" aria-controls="Side_topic5"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>「課題」欄で課題を提出する
+                </a>
+                <div class="collapse" id="Side_topic5">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li class="subtopic"><a href="assignment_submisson_process.htm">課題提出の流れ</a>
+                            </li>
+                            <li class="subtopic">
+                                <a href="assignment_list.htm">課題一覧表の見方（提出状態などの各列の説明，ソート）</a>
+                            </li>
+                            <li class="subtopic">
+                                <a href="assignment_details.htm">フィードバックを閲覧する</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic6" aria-expanded="false" aria-controls="Side_topic6"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>「テスト・クイズ」でテストを受ける・クイズに答える
+                </a>
+                <div class="collapse" id="Side_topic6">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li class="subtopic"><a href="test_process.htm">テスト・クイズを受験する流れ</a></li>
+                            <li class="subtopic"><a href="test_feedback.htm">テスト・クイズのフィードバックを確認する</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic7" aria-expanded="false" aria-controls="Side_topic7"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>「提出箱」でファイルを提出する
+                </a>
+                <div class="collapse" id="Side_topic7">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li class="subtopic"><a href="submission_box_submission_process.htm">「提出箱」でファイルを提出する流れ</a>
+                            </li>
+                            <li class="subtopic">
+                                <a href="instructions_of_submission_box.htm">提出箱ページの説明</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic8" aria-expanded="false" aria-controls="Side_topic8"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>成績を見る
+                </a>
+                <div class="collapse" id="Side_topic8">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li>
+                                <a href="view_gradebook.htm">成績簿ツールを使う</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic9" aria-expanded="false" aria-controls="Side_topic9"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>メディアギャラリで授業動画を見る
+                </a>
+                <div class="collapse" id="Side_topic9">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li>
+                                <a href="where_is_media_gallery.htm">メディアギャラリにアクセスする</a>
+                            </li>
+                            <li>
+                                <a href="instructions_of_media_gallery.htm">メディアギャラリページの説明</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic10" aria-expanded="false" aria-controls="Side_topic10"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>授業のお知らせを確認する
+                </a>
+                <div class="collapse" id="Side_topic10">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li>
+                                <a href="look_announces_subject.htm">各科目ごとのお知らせを見る</a>
+                            </li>
+                            <li>
+                                <a href="look_announces_all.htm">全科目のお知らせを一覧で見る</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic11" aria-expanded="false" aria-controls="Side_topic11"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>ユーザーの各設定を変更する
+                </a>
+                <div class="collapse" id="Side_topic11">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li>
+                                <a href="language_site_settings.htm">ユーザー設定を変更する(言語/科目の表示・非表示)</a>
+                            </li>
+                            <li>
+                                <a href="settings_overview.htm">概要ページ：カレンダー、今日のメッセージ、メッセージセンターに関する個別の設定</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <a data-toggle="collapse" href="#Side_topic12" aria-expanded="false" aria-controls="Side_topic12"
+                    class="Sidebar_collapse">
+                    <i class="fas fa-plus SidebarToggleIcon"></i>その他
+                </a>
+                <div class="collapse" id="Side_topic12">
+                    <div class=" d-flex flex-column">
+                        <ul>
+                            <li class="subtopic">
+                                <a href="forum_chat.htm">フォーラムやチャットルームでメッセージを投稿/閲覧する</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript" src="../static/js/Change_ToggleIcon.js"></script>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <small class="ml-auto mt-5">Copyright 2021 Institute for Information Management and Communication, Kyoto University. All rights reserved.</small>
+
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
