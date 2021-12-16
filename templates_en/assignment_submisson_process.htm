@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PandA Guide</title>
-    <!-- BootstrapのCSS読み込み -->
+    <!-- Load Bootstrap CSS -->
     <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/css/Style_for_lg.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="../static/css/Style_for_sm.css" media="screen and (max-width: 768px)">
-    <!-- jQuery読み込み -->
+    <!-- Load jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -20,7 +20,7 @@
         src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
+    <!-- Load Bootstrap JS -->
     <script src="../static/bootstrap/js/bootstrap.min.js"></script>
     <script src="../static/bootstrap/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/7bb95e7ca3.js" crossorigin="anonymous"></script>
@@ -34,7 +34,7 @@
     <div class="fixed-top d-block d-md-none">
         <div class="container">
             <div class="row">
-                <button class="btn btn-success ml-auto" onclick="location.href='./index.htm'">ホームに戻る</button>
+                <button class="btn btn-success ml-auto" onclick="location.href='./index.htm'">Back to Home</button>
             </div>
         </div>
     </div>
@@ -43,15 +43,15 @@
             <div class="col-md-10 col-sm-12 rounded" id="BreadCrumb">
                 <ol class="breadcrumb my-auto">
                     <li class="breadcrumb-item"><a href="index.htm">Home</a></li>
-                    <li class="breadcrumb-item"><a href="index.htm#topic5">「課題」欄で課題を提出する</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">課題提出の流れ</li>
+                    <li class="breadcrumb-item"><a href="index.htm#topic5">Submit Assignments in the Assignment Page</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">How to Submit Assignments</li>
                 </ol>
             </div>
             <div class="col-md-10 col-sm-12" id="Main">
                 <div>
-                    <h3 class="Article_title">課題提出の流れ</h3>
+                    <h3 class="Article_title">How to Submit Assignments</h3>
                     <!-- <div class="title instructions screensteps-textblock screensteps-wrapper--introduction screensteps-wrapper">
-                                
+
                                 課題は授業ページの課題タブから提出できます。
                                 課題タブをクリックすると課題一覧が表示され、課題タイトルをクリックすることで各課題の詳細に移動します。
                                 そのページで課題が提出可能です。提出の詳細については以下をご覧ください。<br>
@@ -59,110 +59,108 @@
                                 <a href="assignment_details.htm">課題の詳細</a>
                             </div> -->
                     <div>
-                        PandA上で課題を提出するには、以下の手順に従ってください。
+                        To submit assignments, please execute the process below.
                     </div>
                     <div class="step step1">
-                        <h4>1. 「課題」ページへ遷移する</h4>
+                        <h4>1. Go to Assignment Page</h4>
                         <div class="image clearfix">
                             <img src="../static/images/assignment_sp_step1.png" alt="step1">
                         </div>
                         <div class="instructions">
-                            <p>各科目のコースサイトの左メニューから「課題」をクリックして、「課題」ページに移ってください。</p>
+                            <p>Click "Assignments" or "課題" from the left menu in the course site to go to the assignment page.</p>
                         </div>
                     </div>
                     <div class="step step2">
-                        <h4>2. 課題のタイトルをクリックする</h4>
+                        <h4>2. Click the Title of the Assignemnt</h4>
                         <div class="image clearfix">
                             <img src="../static/images/assignment_sp_step2.png" alt="step2">
                         </div>
                         <div class="instructions">
                             <p>
-                                サイト内の全課題の一覧が表示されます。各課題について、以下の情報が表示されます。
+                                All assignemnts in the site is displayed. The details below for each assignment is displayed.
                             </p>
                             <ul>
-                                <li>課題のタイトル</li>
-                                <li>ステータス（未開始、課題提出が必要、返却、提出日時など）</li>
-                                <li>学生が課題を利用できるようになる公開日</li>
-                                <li>提出期限</li>
+                                <li>The title of the assignment/li>
+                                <li>Status（such as "Not Started", "Draft - In progress", "Returned", "Submitted"）</li>
+                                <li>The open date of the assignment</li>
+                                <li>The due date of the assignment</li>
                             </ul>
-                            <p>リスト内の課題のタイトルをクリックして、提出したい課題を選択してください。</p>
+                            <p>Click the title of the assignment you want to submit.</p>
                         </div>
                     </div>
                     <div class="help_if">
                         <div class="instructions">
                             <p>
-                                「宣誓」が必要な課題は次のページが表示されます。
-                                [Agree]をクリックして課題を確認してください。<img class="sm-r" src="../static/images/assignment_sp_step3-a.png" alt="step3a">
+                                The assignment with "Honor Pledge" will display the page below.
+                                Click "Agree" to view the assignment.<img class="sm-r" src="../static/images/assignment_sp_step3-a.png" alt="step3a">
                             </p>
                         </div>
                     </div>
                     <div class="step step3">
-                        <h4>3. 提出内容を入力、または提出ファイルを添付する</h4>
-                        
+                        <h4>3. Input submittion text or attach submittion files</h4>
+
                         <div class="image clearfix">
                             <img src="../static/images/assignment_sp_step3-b.png" alt="step3b">
                         </div>
                         <div class="instructions">
                             <p>
-                                課題の内容や添付ファイル、期限などの詳細情報は<font color="#ff0000">&#9312;</font>に示されています。<br>
+                                Details such as the instruction, attachments and the due date for the assignment is displayed at <font color="#ff0000">&#9312;</font>.<br>
                             <p>
-                                ページ下部のテキストエディタ(<font color="#ff0000">&#9313;</font>)より提出内容を直接入力してください。<br>
-                                もしくは[ファイルを選択](<font color="#ff0000">&#9314;</font>)をクリックし、自分のコンピューターから提出ファイルを選択し添付してください。<br>
-                                課題によってはどちらか一方のみしか使用できない場合があります。先生の指示に従ってください。<br>
+                                Input your submittion contents to the text editor on the bottom of the page(<font color="#ff0000">&#9313;</font>). <br>
+                                Click "Choose file"(<font color="#ff0000">&#9314;</font>) to attach your submittion file from your computer.<br>
+                                Some assignments allow only either of them. Please follow the instructor.<br>
                             </p>
-                            <p>[プレビュー] をクリックして提出課題をプレビューしたり、[下書きを保存]をクリックして提出課題を保存し、後で提出したりできます。<br>
-                                [キャンセル]をクリックすると、保存または提出せずに課題を終了することができます。</p>
+                            <p>Click "Preview" to preview the assignment. Click "Save Draft" to save the assignment to submit it later.<br>
+                                Click "Cancel" to close the assignment without submitting or saving.</p>
                             <p>
-                                入力または添付が完了したらページ最下部の[進める](<font color="#ff0000">&#9315;</font>)をクリックして次のステップに進んでください。
+                                After you finished your inputting or attaching, click "Proceed" (<font color="#ff0000">&#9315;</font>) to continue to the next step.
                             </p>
                             <p>
-                                ※自分のコンピューターから提出ファイルを添付した場合、ファイル名、ファイルサイズ、アップロード日時が「添付ファイル」の下に表示されます。<br>
-                                間違ったファイルを選択した場合は、[削除] をクリックして添付ファイルを削除することができます。
+                                *When you have attached file from your computer, the filename, size and upload date is displayed below "Attachments"<br>
+                                If you uploaded a wrong file, click "Remove" to delete the attached file.
                             </p>
                         </div>
                     </div>
                     <div class="step step4">
-                        <h4>4.課題を提出する</h4>
+                        <h4>4. Submit Assignment</h4>
                         <div class="image clearfix">
                             <img src="../static/images/assignment_sp_step4.png" alt="step4">
                         </div>
                         <div class="instructions">
                             <p>
-                                課題を提出する準備ができたら、[提出]をクリックして課題の提出を完了してください。<br>
-                                まだ提出する準備ができていない場合、[編集]を押して前のページに戻り、[プレビュー] をクリックして提出課題をプレビューするか、[下書きを保存]
-                                をクリックして提出課題を保存し、後で提出することができます。<br>
+                                When you are ready to submit the assignment, click "Submit" to complete the submission.<br>
+                                If you are not ready, click "Edit" to go back to the previous page, and click "Preview" to preview the assignment or click "Save Draft" to submit it later.<br>
                             </p>
                         </div>
                     </div>
                     <div class="step step5">
-                        <h4>5.提出物の確認</h4>
+                        <h4>5. Confirmation of the Submittion</h4>
                         <div class="image clearfix">
                             <img src="../static/images/assignment_sp_step5.png" alt="step5">
                         </div>
                         <div class="instructions">
                             <p>
-                                課題を提出すると、画面上に確認メッセージが表示されます。<br>
-                                <strong style="color:red">必ず提出IDが発行されていることを確認してください。IDが発行されていることが課題を提出した証明になります。</div></strong>
-                                また、全学メールアドレスに提出IDが記載された課題提出確認のメールが送信されますので
-                                必ず保存しておいてください。
+                                After you complete submittion, a confirmation message is displayed on the screen.<br>
+                                <strong style="color:red">Make sure a submittion ID is issued. The ID proves your submitting the assingment.</div></strong>
+                                Also, an email with the id will sended to your all-university mail, so please save it.
                             </p>
                         </div>
                     </div>
                     <div class="step step6">
-                        <h4>6.返却された提出物の確認</h4>
+                        <h4>6. View the Returned Assignments</h4>
                         <div class="image clearfix">
                             <img src="../static/images/assignment_sp_step6.png" alt="step6">
                         </div>
                         <div class="instructions">
                             <p>
-                                課題が返却されると<font color="#ff0000">&#9312;</font>に課題の詳細と成績等が表示されます。<br>
-                                成績(<font color="#0000ff">&#9313;</font>)は点数・合格/不合格・チェックマーク・コメントのいずれかの形でつけられます。<br>
-                                再提出が求められた場合は、同様の手順で再提出を行ってください。
+                                After the assignment is returned, the details and grades for the assignment is displayed in <font color="#ff0000">&#9312;</font>.<br>
+                                Assignments are graded with either points, letter grade, pass/fail or checkmark.(<font color="#0000ff">&#9313;</font>)<br>
+                                If you are requested to resubmit, submit the assignment again as the first time.
                             </p>
                         </div>
                     </div>
                 </div>
-            
+
             <div class="col-md-2 d-none d-md-flex flex-column rounded" id="Sidebar">
                 <!--  -->
                 <a data-toggle="collapse" href="#Side_topic1" aria-expanded="false" aria-controls="Side_topic1"

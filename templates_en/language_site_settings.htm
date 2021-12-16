@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PandA Guide</title>
-    <!-- BootstrapのCSS読み込み -->
+    <!-- Load Bootstrap CSS -->
     <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/css/Style_for_lg.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="../static/css/Style_for_sm.css" media="screen and (max-width: 768px)">
-    <!-- jQuery読み込み -->
+    <!-- Load jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -20,7 +20,7 @@
         src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
+    <!-- Load Bootstrap JS -->
     <script src="../static/bootstrap/js/bootstrap.min.js"></script>
     <script src="../static/bootstrap/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/7bb95e7ca3.js" crossorigin="anonymous"></script>
@@ -34,7 +34,7 @@
     <div class="fixed-top d-block d-md-none">
         <div class="container">
             <div class="row">
-                <button class="btn btn-success ml-auto" onclick="location.href='./index.htm'">ホームに戻る</button>
+                <button class="btn btn-success ml-auto" onclick="location.href='./index.htm'">Back to Home</button>
             </div>
         </div>
     </div>
@@ -43,93 +43,94 @@
             <div class="col-md-10 col-sm-12 rounded" id="BreadCrumb">
                 <ol class="breadcrumb my-auto">
                     <li class="breadcrumb-item"><a href="index.htm">Home</a></li>
-                    <li class="breadcrumb-item"><a href="index.htm#topic11">ユーザーの各設定を変更する</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">ユーザー設定を変更する(言語/科目の表示・非表示)</li>
+                    <li class="breadcrumb-item"><a href="index.htm#topic11">Change user's each settings</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Change user's settings (show/hide languages/subjects)</li>
                 </ol>
             </div>
             <div class="col-md-10 col-sm-12" id="Main">
                 <div>
-                    <h3 class="Article_title">ユーザー設定を変更する(言語/科目の表示・非表示)</h3>
+                    <h3 class="Article_title">Change user's settings (show/hide languages/subjects)</h3>
                     <div>
-                        <p style="color: red;">言語設定で設定できる言語はEnglish/日本語です。</p>
-                        PandAのユーザー設定を変更するには、以下の手順を実行してください。
+                        <p style="color: red;">You can set English/Japanese in the language settings.</p>
+                        To change the user settings of PandA, please follow the steps below.
 
                     </div>
                     <div class="step step1">
-                        <h4>1. 「ホーム」ページへ遷移する</h4>
+                        <h4>1. Go to "Home" page</h4>
                         <div class="image clearfix">
                             <img src="../static/images/site_settings_step1.png" alt="">
                         </div>
                         <div class="instructions">
-                            <p>上部ナビゲーションバーの[ホーム]ボタンをクリックする。</p>
+                            <p>Click the "Home" button on the top navigation bar.</p>
                         </div>
                     </div>
                     <div class="step step2">
-                        <h4>2. 左メニューから「設定」をクリックする</h4>
+                        <h4>2. Click "Preferences" from the left menu.</h4>
                         <div class="image clearfix">
                             <img src="../static/images/site_settings_step2.png" alt="">
                         </div>
                         <div class="instructions">
                             <p>
-                                設定できる項目は以下のとおりです。
+                                You can customize these items.
                             </p>
                             <!-- <ul>
-                                <li><a href="#step3">通知</a></li>
-                                <li><a href="#step4">タイムゾーン</a></li>
-                                <li><a href="#step5">言語</a></li>
-                                <li><a href="#step6">サイト</a></li>
-                                <li><a href="#step7">エディタ</a></li>
+                                <li><a href="#step3">Notifications</a></li>
+                                <li><a href="#step4">Time Zone</a></li>
+                                <li><a href="#step5">Language</a></li>
+                                <li><a href="#step6">Sites</a></li>
+                                <li><a href="#step7">Editor</a></li>
                             </ul> -->
                             <ul>
-                                <li>通知</li>
-                                <li>タイムゾーン</li>
-                                <li>言語</li>
-                                <li>サイト</li>
-                                <li>エディタ</li>
+                                <li>Notifications</li>
+                                <li>Time Zone</li>
+                                <li>Language</li>
+                                <li>Sites</li>
+                                <li>Editor</li>
                             </ul>
-                            <p>変更したい項目のタブをクリックして各設定ページに遷移してください。</p>
+                            <p>Click the tab of the item you want to change to go to the each setting page.</p>
                         </div>
                     </div>
                     <div class="step step3" id="step3">
-                        <h5>・通知</h5>
+                        <h5>・Notifications</h5>
                         <div class="instructions">
                             <p>
                                 ここでは各科目における課題やお知らせをメールで受け取る際の設定を行えます。
+                                In this page, you can configure the settings for receiving assignments and announcements for each course by email.
                             </p>
                         </div>
                     </div>
                     <div class="step step4" id="step4">
-                        <h5>・タイムゾーン</h5>
+                        <h5>・Time Zone</h5>
                         <div class="instructions">
                             <p>
-                                ここではPandA上のカレンダーなどのタイムゾーンの設定を行えます。
+                                In this page, you can set the time zone for the calendar and other tools on PandA.
                             </p>
                         </div>
                     </div>
                     <div class="step step5" id="step5">
-                        <h5>・言語</h5>
+                        <h5>・Language</h5>
                         <div class="instructions">
                             <p>
-                                ここではPandA上の言語の設定を行います。Englishまたは日本語が選択可能です。
+                                In this page, you can set the language for PandA, either English or Japanese.
                             </p>
                         </div>
                     </div>
                     <div class="step step6" id="step6">
-                        <h5>・サイト</h5>
+                        <h5>・Sites</h5>
                         <div class="instructions">
                             <p>
-                                ここではコースサイトの表示設定を行えます。<br>
-                                ※サイトタイトルを変更するモードと、サイト説明を変更するモードがあります。<br>
-                                ほとんどのコースサイトはサイトタイトルとサイト説明を同じにしているので、サイトタイトルを変更すれば問題ありません。
-                                使い方は<a href="add_coursesite.htm">画面上部の科目タブに各科目のコースサイトを追加・削除する</a>をご覧ください。
+                                In this page, you can configure the course site display settings.<br>
+                                There are two modes, one for displaying the site title and the other for displaying the site short description.<br>
+                                Most course sites have the same site title and short description, so displaying the site title is not a problem.
+                                Please show <a href="add_coursesite.htm">Adding and deleting course sites for each subject in the subject tab at the top of the screen</a> for more information。
                             </p>
                         </div>
                     </div>
                     <div class="step step7" id="step7">
-                        <h5>・エディタ</h5>
+                        <h5>・Editor</h5>
                         <div class="instructions">
                             <p>
-                                ここではエディタツールの表示設定を行えます。
+                                In this page, you can configure the display settings for the editor.
                             </p>
                         </div>
                     </div>
