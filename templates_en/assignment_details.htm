@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PandA Guide</title>
-    <!-- BootstrapのCSS読み込み -->
+    <!-- Load Bootstrap CSS -->
     <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/css/Style_for_lg.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="../static/css/Style_for_sm.css" media="screen and (max-width: 768px)">
-    <!-- jQuery読み込み -->
+    <!-- Load jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -20,7 +20,7 @@
         src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
+    <!-- Load Bootstrap JS -->
     <script src="../static/bootstrap/js/bootstrap.min.js"></script>
     <script src="../static/bootstrap/js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/7bb95e7ca3.js" crossorigin="anonymous"></script>
@@ -34,7 +34,7 @@
     <div class="fixed-top d-block d-md-none">
         <div class="container">
             <div class="row">
-                <button class="btn btn-success ml-auto" onclick="location.href='./index.htm'">ホームに戻る</button>
+                <button class="btn btn-success ml-auto" onclick="location.href='./index.htm'">Back to Home</button>
             </div>
         </div>
     </div>
@@ -44,55 +44,55 @@
                 <div>
                     <ol class="breadcrumb my-auto">
                         <li class="breadcrumb-item"><a href="index.htm">Home</a></li>
-                        <li class="breadcrumb-item"><a href="index.htm#topic5">「課題」欄で課題を提出する</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">フィードバックを閲覧する</li>
+                        <li class="breadcrumb-item"><a href="index.htm#topic5">Submit Assignments in the Assignment Page</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Check Feedbacks</li>
                     </ol>
                 </div>
             </div>
             <div class="col-md-10 col-sm-12" id="Main">
                 <div>
-                    <h3 class="Article_title">フィードバックを閲覧する</h3>
+                    <h3 class="Article_title">Check Feedbacks</h3>
                     <div
                         class="title instructions screensteps-textblock screensteps-wrapper--introduction screensteps-wrapper">
-                        教員・TAが課題を採点すると、課題ツールでそのフィードバックを閲覧できます。<br>
-                        課題のフィードバックを閲覧するには、以下の手順を実行してください。
+                        You can check feedbacks in assignments tool after your teachers or TAs graded your assignments.<br>
+                        To check your feedbacks, please execute the process below.
                     </div>
                     <div class="step step1">
-                        <h4>1. 「課題」ページへ遷移する</h4>
+                        <h4>1. Go to Assignment Page</h4>
                         <div class="image clearfix">
                             <img src="../static/images/assignment_sp_step1.png" alt="">
                         </div>
                         <div class="instructions">
-                            <p>コースサイトの左メニューから「課題」をクリックしてください</p>
+                            <p>Click "Assignments" or "課題" from the left menu in the course site.</p>
                         </div>
                     </div>
                     <div class="step step2">
-                        <h4>2. 課題のタイトルをクリックする</h4>
+                        <h4>2. Click the title of the assignment</h4>
                         <div class="image clearfix">
                             <img src="../static/images/assignment_sp_step2.png" alt="">
                         </div>
                         <div class="instructions">
                             <p>
-                                閲覧したい課題のタイトルをクリックしてください。状態が「返却されました」となっている課題がフィードバックをもつ課題です。
+                                Click the title of the assignment you want to check the feedback. The assignments with "Returned" status have feedbacks.
                             </p>
                         </div>
                     </div>
                     <div class="step step3" id="feedback">
-                        <h4>3. フィードバックを閲覧する</h4>
+                        <h4>3. Check Feedbacks</h4>
                         <div class="image clearfix">
                             <img src="../static/images/assignment_details_step3.png" alt="">
                         </div>
                         <div class="instructions">
-                            <p>課題の詳細とフィードバックが表示されます。表示内容を以下に列挙します。</p>
+                            <p>The detail and feedback for the assignment is displayed. Displayed items are:</p>
                             <ol>
-                                <li>タイトル、学生名、提出日、評点、提出履歴</li>
-                                <li>課題の説明、課題添付ファイル</li>
-                                <li>提出課題、あなたの提出添付ファイル</li>
-                                <li>教員・TAのコメント、コメント添付ファイル</li>
+                                <li>title, student's name, submitted date, grade, submission history</li>
+                                <li>instructions, additional resoureces for the assignment</li>
+                                <li>submitted assignment, attachments for your submission</li>
+                                <li>comments from instructors / TAs, attachments for the comments</li>
                             </ol>
                         </div>
                         <div class="instructions">
-                            <p>再提出が可能/要求されている場合は、課題の提出と同様にして再提出を行います。</p>
+                            <p>If resubmission is available, you can resubmit the assignment as same as the first submission.</p>
                         </div>
                     </div>
                 </div>
